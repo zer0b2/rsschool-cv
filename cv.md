@@ -1,4 +1,3 @@
-********
 # Vladislav Khrykin
 ********
 
@@ -48,5 +47,5 @@ Colledge: Kalinigrad Business Colledge, specialization: Programmer
 
 ## Languages 
 
-Native Russian
-Pre-intermediate English
+- Native Russian
+- Pre-intermediate English
