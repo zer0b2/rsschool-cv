@@ -58,12 +58,12 @@ a {
   grid-template-columns: 20% auto; 
 }
 
-.prof-pic, 
+/* .prof-pic, 
 .cont-wo-pic {
   padding: 0;
   margin: 0;
   display: inline-block;
-}
+} */
 
 h2 {
   padding: 10px 20px;
@@ -117,7 +117,7 @@ footer{
   width: 150px;
 }
 @media(max-width: 1500px) {
-  .test{
+  .head-container{
     display: inline-block;
   }
   pre{
