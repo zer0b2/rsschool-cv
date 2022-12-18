@@ -42,7 +42,7 @@ function basicOp(operation, value1, value2)
 
 ## Education
 
-Colledge: Kalinigrad Business Colledge, specialization: Programmer
+Colledge: Kaliningrad Business Colledge, specialization: Programmer
 
 
 ## Languages 
