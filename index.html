@@ -9,7 +9,7 @@
     <nav class="navigation-menu">
         <ul class="menu-list">
             <li><a href="#about">About</a></li>
-            <li><a href="#sills">Skills</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#code">Code</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#languages">Languages</a></li>
@@ -18,25 +18,25 @@
 </head>
 <body>
     <main>
-        <section class="img-name">
-            <img src="./images/T1vKQmWX46c.jpg" alt="avatar">
-            <div class="abc">
+        <section class="head-container">
+            <img src="./images/T1vKQmWX46c.jpg" alt="profile picture" class="prof-pic">
+            <section class="cont-wo-pic">
                 <h1>Vladislav Khrykin</h1>
-                <section>
+                <section class="contacts">
                     <h2>Contacts</h2>
                     <ul>
                         <li>VK: <a href="https://vk.com/zer0b2">https://vk.com/zer0b2</a></li>
-                        <li>Discord: zer0b2#8050</li>
+                        <li>Discord: <span class="discord-id">zer0b2#8050</span></li>
                     </ul>
                 </section>
-            </div>
+            </section>
         </section>
-        <section class="about" name="about">
-            <h2>About</h2>
+        <section class="content-section" id="about">
+            <h2 >About</h2>
             <p>Two years ago I stydied at colledge, but after graduation left this path. Now I've come back with clear mind and ready to hard work in RSSchool. 
             I belive that I can reach my goal and take a place in IT-company as front-end programmer.</p>
         </section>
-        <section class="skills" name="skills">
+        <section class="content-section" id="skills">
             <h2>Skills</h2>
             <ul>
                 <li>JavaScript fundamentals</li>
@@ -45,29 +45,31 @@
                 <li>GIT</li>
             </ul>
         </section>
-        <section class="code" name="code">
+        <section class="content-section" id="code">
             <h2>Code example</h2>
-            <code>
-                function basicOp(operation, value1, value2)<br>
-                    {<br>
-                    if(operation == '+'){<br>
-                        return value1 + value2;<br>
-                    } else if(operation == '-'){<br>
-                        return value1 - value2;<br>
-                    } else if(operation == '*'){<br>
-                        return value1 * value2;<br>
-                    } else {<br>
-                        return value1 / value2;<br>
-                    }<br>
-                }<br>
-            </code>
+            <pre>
+                <code>
+function basicOp(operation, value1, value2)
+    {
+        if(operation == '+'){
+            return value1 + value2;
+        } else if(operation == '-'){
+            return value1 - value2;
+        } else if(operation == '*'){
+             return value1 * value2;
+        } else {
+            return value1 / value2;
+        }
+    }
+                </code>
+            </pre>
         </section>
-        <section class="education" name="education">
+        <section class="content-section" id="education">
             <h2>Education</h2>
-            <p>Colledge: Kalinigrad Business Colledge</p>
-            <p>Specialization: Programmer</p>
+            <p>Colledge: Kaliningrad Business Colledge<br>
+            Specialization: Programmer</p>
         </section>
-        <section class="languages" name="languages">
+        <section class="content-section" id="languages">
             <h2>Languages</h2>
             <ul>
                 <li>Native Russian</li>
