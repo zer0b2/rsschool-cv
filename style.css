@@ -9,6 +9,7 @@ main {
   font-family: Andale Mono, monospace; 
 }
 
+
 html {
   color: #50D77D;
   background-color: #0b0418e3;
@@ -65,7 +66,6 @@ a {
 }
 
 h2 {
-  
   padding: 10px 20px;
   border-radius: 10px 10px 0 0;
   background-color: #50D77D; 
@@ -77,10 +77,9 @@ h2 {
   font-size: 28px;
 }
 
-.content-section 
-ul, 
-p, 
-pre {   
+.content-section>ul, 
+.content-section>p, 
+.content-section>pre {   
   padding: 10px 20px;
   list-style-type: none;
   background-color: #8650D7;
@@ -96,6 +95,27 @@ ul {
   border-radius: 0 0 10px 10px;
 }
 
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 15%;
+  background-color: #8650D7;
+}
+
+
+.my-github>a>img{
+  width: 75px;
+  height: 75px;
+}
+.task-year>p{
+  font-size: 46px;
+  text-align: center;
+}
+.school-img{
+  height: 75px;
+  width: 150px;
+}
 @media(max-width: 1500px) {
   .test{
     display: inline-block;
